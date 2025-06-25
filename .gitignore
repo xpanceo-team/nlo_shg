@@ -1,0 +1,10 @@
+__pycache__
+*.DS_Store
+*.cache
+.egg-info
+.pytest_cache/*
+.vscode/*
+idea/*
+.coverage*
+
+runs/*
