@@ -6,9 +6,20 @@
 Install python=3.10 or higher
 To install dependencies run:
 
-```
-pip install -r requirements.txt
-```
+**1.** Install torch==2.1.2:
+
+```pip install torch==2.1.2```
+
+**2.**
+Install torch-scatter and torch-sparse. For example for CUDA 12.1:
+
+```pip install torch-scatter -f https://data.pyg.org/whl/torch-2.1.0+cu121.html```
+
+```pip install torch-sparse -f https://data.pyg.org/whl/torch-2.1.0+cu121.html```
+
+**3.** Install other dependencies:
+
+```pip install -r requirements.txt```
 
 ## Infer model
 
