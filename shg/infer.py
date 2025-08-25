@@ -97,7 +97,7 @@ def main(args):
         model.load_state_dict(state_dict)
 
     model.to(device)
-    infer(args, model)
+    print(infer(args, model))
 
 if __name__ == "__main__":
     args = parse_args()
